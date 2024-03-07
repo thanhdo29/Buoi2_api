@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:inputType="text" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital" />
+
+    <EditText
+        android:id="@+id/editTextPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Population"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonAddCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add City" />
+
+</LinearLayout>
