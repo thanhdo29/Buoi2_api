@@ -24,11 +24,11 @@ public class AddCityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_city);
 
-        etCityName = findViewById(R.id.editTextCityName);
-        etState = findViewById(R.id.editTextState);
-        etCountry = findViewById(R.id.editTextCountry);
-        etPopulation = findViewById(R.id.editTextPopulation);
-        btnAddCity = findViewById(R.id.buttonAddCity);
+        etCityName = findViewById(R.id.edtCityName);
+        etState = findViewById(R.id.edtState);
+        etCountry = findViewById(R.id.edtCountry);
+        etPopulation = findViewById(R.id.edtPopulation);
+        btnAddCity = findViewById(R.id.btnAddCity);
 
         db=FirebaseFirestore.getInstance();
 

@@ -6,41 +6,41 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/editTextCityName"
+        android:id="@+id/edtCityName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="City Name"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editTextState"
+        android:id="@+id/edtState"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="State"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editTextCountry"
+        android:id="@+id/edtCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Country"
         android:inputType="text" />
 
     <CheckBox
-        android:id="@+id/checkBoxCapital"
+        android:id="@+id/chkCapital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Capital" />
 
     <EditText
-        android:id="@+id/editTextPopulation"
+        android:id="@+id/edtPopulation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Population"
         android:inputType="number" />
 
     <Button
-        android:id="@+id/buttonAddCity"
+        android:id="@+id/btnAddCity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add City" />

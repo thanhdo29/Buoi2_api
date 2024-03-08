@@ -42,19 +42,19 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.CityViewHolder
     }
 
     class CityViewHolder extends RecyclerView.ViewHolder{
-        private TextView cityNameTextView, stateCountryTextView, populationTextView;
+        private TextView tvCityName, tvState, tvPopular;
 
         public CityViewHolder(@NonNull View itemView) {
             super(itemView);
-            cityNameTextView = itemView.findViewById(R.id.cityNameTextView);
-            stateCountryTextView = itemView.findViewById(R.id.textViewStateCountry);
-            populationTextView = itemView.findViewById(R.id.textViewPopulation);
+            tvCityName = itemView.findViewById(R.id.tvNameCity);
+            tvState = itemView.findViewById(R.id.tvState);
+            tvPopular = itemView.findViewById(R.id.tvPopular);
         }
 
         public void bind(City city) {
-            cityNameTextView.setText(city.getName());
-            stateCountryTextView.setText(city.getState() + ", " + city.getCountry());
-            populationTextView.setText("Population: " + String.valueOf(city.getPopulation()));
+            tvCityName.setText(city.getName());
+            tvState.setText(city.getState() + ", " + city.getCountry());
+            tvPopular.setText("Population: " + String.valueOf(city.getPopulation()));
         }
     }
 }

@@ -6,20 +6,20 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/cityNameTextView"
+        android:id="@+id/tvNameCity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold" />
     <TextView
-        android:id="@+id/textViewStateCountry"
+        android:id="@+id/tvState"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
         android:padding="8dp"/>
 
     <TextView
-        android:id="@+id/textViewPopulation"
+        android:id="@+id/tvPopular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
